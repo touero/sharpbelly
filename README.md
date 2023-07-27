@@ -18,12 +18,12 @@
 ```shell
 $ git clone https://github.com/weiensong/wslProxy.git
 
-# !!! 进入拉取目录, 设置其中端口port !!!
+# ❗❗❗ 进入拉取目录, 设置其中端口port ❗❗❗
 
 # 移动至/data/tools
 $ sudo mv proxy.sh /data/tools/proxy.sh
 
-# !!! 确认使用的shell,当前使用zsh,设置到alias !!!
+# ❗❗❗ 确认使用的shell,当前使用zsh,设置到alias ❗❗❗
 
 $ nvim ~/.zshrc
 # 增加以下内容:
