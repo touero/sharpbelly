@@ -3,7 +3,7 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/badge/python_-%3E%3D3.8-green" alt=""> <img src="https://img.shields.io/badge/license_-MIT-green" alt=""> <img src="https://img.shields.io/badge/shell-blue" alt=""> <img src="https://img.shields.io/badge/zsh-blue" alt="">  <img src="https://img.shields.io/badge/bash-blue" alt=""> 
+<img src="https://img.shields.io/badge/license_-MIT-green" alt=""> <img src="https://img.shields.io/badge/shell-blue" alt=""> <img src="https://img.shields.io/badge/zsh-blue" alt="">  <img src="https://img.shields.io/badge/bash-blue" alt=""> 
 </p>
 
 ## 仓库介绍
