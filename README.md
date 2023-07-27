@@ -43,7 +43,7 @@ $ proxy unset
 $ proxy test
 
 # 测试代理
-# curl google.com
+$ curl google.com
 ```
 
 ## 相关仓库
