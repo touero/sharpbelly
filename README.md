@@ -28,6 +28,8 @@ $ sudo mv proxy.sh /data/tools/proxy.sh
 $ nvim ~/.zshrc
 # 增加以下内容:
 alias proxy='source /data/tools/proxy'
+
+$ source ~/.zshrc
 ```
 
 
