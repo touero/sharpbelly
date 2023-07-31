@@ -79,7 +79,7 @@ Standard Python follows the Shell Code of Conduct.
 This project exists thanks to all the people who contribute.
 
 
-## 使用许可
+## License
 
 [MIT](LICENSE) © weiensong
 
