@@ -8,7 +8,7 @@
 
 ## Repository Introduction
 
-&emsp;&emsp;In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.
+In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.
 
 
 ## Install
