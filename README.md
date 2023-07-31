@@ -1,4 +1,4 @@
-<h1 align="center">为wsl设置本机代理</h1>
+<h1 align="center">Set up a native proxy for wsl</h1>
 
 
 
@@ -6,49 +6,49 @@
 <img src="https://img.shields.io/badge/license_-MIT-green" alt=""> <img src="https://img.shields.io/badge/shell-blue" alt=""> <img src="https://img.shields.io/badge/zsh-blue" alt="">  <img src="https://img.shields.io/badge/bash-blue" alt=""> 
 </p>
 
-## 仓库介绍
+## Repository Introduction
 
-&emsp;&emsp;实际开发中需要在wsl中使用代理, 这个仓库为解决wsl快捷设置代理, 快捷取消设置代理提供支持.
+&emsp;&emsp;In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.
 
 
-## 安装
+## Install
 
-这个项目使用[WSL](https://learn.microsoft.com/en-us/windows/wsl/install) [Git](https://git-scm.com/) 请确保你本地安装了它们, 同时确保你的代理客户端运行局域网代理, 即 Allow LAN。
+This project uses [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) [Git](https://git-scm.com/) Go check them out if you don't have them locally installed, At the same time, ensure that your proxy client allows LAN proxies, that is, Allow LAN.
 
 ```shell
 $ git clone https://github.com/weiensong/wslProxy.git
 
-# ❗❗❗ 进入拉取目录, 设置其中端口port ❗❗❗
+# ❗❗❗ Enter the pull directory and set the port in it ❗❗❗
 
-# 移动至/data/tools
+# move to /data/tools
 $ sudo mv proxy.sh /data/tools/proxy.sh
 
-# ❗❗❗ 确认使用的shell,当前使用zsh,设置到alias ❗❗❗
+# ❗❗❗ Confirm the shell used, currently using zsh, set to alias ❗❗❗
 
 $ nvim ~/.zshrc
-# 增加以下内容:
+# Add the following content:
 alias proxy='source /data/tools/proxy'
 
 $ source ~/.zshrc
 ```
 
 
-## 运行
+## Usage
 ```sh
-# 开启代理
+# Enable Proxy
 $ proxy set
 
-# 关闭代理
+# Able Proxy
 $ proxy unset
 
-# 输出代理信息
+# Output proxy information
 $ proxy test
 
-# 测试代理
+# Test proxy
 $ curl google.com
 ```
 
-## 相关仓库
+## Related Repository
 
 - [zsh](https://github.com/zsh-users/zsh) — Mirror of the Z shell source code repository
 - [clash](https://github.com/Dreamacro/clash) — A rule-based tunnel in Go
@@ -57,29 +57,26 @@ $ curl google.com
 
 
 
-## 相关链接
+## Related Efforts
 
 - [wsl](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 
 
-## 维护者
+## Maintainers
 
 [@weiensong](https://github.com/weiensong)
 
 
+## Contributing
 
-## 如何贡献
+Feel free to dive in! [Open an issue](https://github.com/weiensong/scrapySelenium/issues)[Open an issue](https://github.com/weiensong/wslProxy/issues) or submit PRs.
 
-非常欢迎你的加入！[提一个 Issue](https://github.com/weiensong/wslProxy/issues) 或者提交一个 Pull Request。
+Standard Python follows the Shell Code of Conduct.
 
+### Contributors
 
-标准遵循 shell 行为规范。
-
-### 贡献者
-
-感谢参与项目的所有人
-
+This project exists thanks to all the people who contribute.
 
 
 ## 使用许可
