@@ -27,7 +27,7 @@ $ sudo mv proxy.sh /data/tools/proxy.sh
 
 $ nvim ~/.zshrc
 # Add the following content:
-alias proxy='source /data/tools/proxy'
+alias proxy='source /data/tools/proxy.sh'
 
 $ source ~/.zshrc
 ```
