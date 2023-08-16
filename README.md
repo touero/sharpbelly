@@ -1,4 +1,4 @@
-<h1 align="center">Set up a native proxy for wsl</h1>
+<h1 align="center">sharpbelly</h1>
 
 
 
