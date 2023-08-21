@@ -8,22 +8,25 @@
 
 ## Repository Introduction
 
-In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.
+In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.  
+<p align="center"><img src=terminal.gif alt=""></p>
 
 
 ## Install
 
-This project uses [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) [Git](https://git-scm.com/) Go check them out if you don't have them locally installed, At the same time, ensure that your proxy client allows LAN proxies, that is, Allow LAN.
+This project uses [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) [Git](https://git-scm.com/) Go check them out if you don't have them locally installed.   
+
+❗❗❗At the same time, ensure that your proxy client allows LAN proxies, that is, Allow LAN. ❗❗❗
 
 ```shell
 $ git clone https://github.com/weiensong/wslProxy.git
 
-# ❗❗❗ Enter the pull directory and set the port in it ❗❗❗
+# ❗ Enter the pull directory and set the port in it ❗
 
 # move to /data/tools
 $ sudo mv proxy.sh /data/tools/proxy.sh
 
-# ❗❗❗ Confirm the shell used, currently using zsh, set to alias ❗❗❗
+# ❗ Confirm the shell used, currently using zsh, set to alias ❗
 
 $ nvim ~/.zshrc
 # Add the following content:
