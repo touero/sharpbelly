@@ -72,7 +72,7 @@ $ curl google.com
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/weiensong/scrapySelenium/issues)[Open an issue](https://github.com/weiensong/wslProxy/issues) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/weiensong/wslProxy/issues) or submit PRs.
 
 Standard Python follows the Shell Code of Conduct.
 
