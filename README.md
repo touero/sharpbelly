@@ -16,8 +16,6 @@ In actual development, it is necessary to use proxies in wsl. This repository pr
 
 This project uses [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) [Git](https://git-scm.com/) Go check them out if you don't have them locally installed.   
 
-❗❗❗At the same time, ensure that your proxy client allows LAN proxies, that is, Allow LAN. ❗❗❗
-
 ```shell
 $ git clone https://github.com/weiensong/wslProxy.git
 
@@ -37,6 +35,7 @@ $ source ~/.zshrc
 
 
 ## Usage
+❗❗❗At the same time, ensure that your proxy client allows LAN proxies, that is, Allow LAN. ❗❗❗
 ```sh
 # Enable Proxy
 $ proxy set
