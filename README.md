@@ -40,7 +40,7 @@ $ source ~/.zshrc
 # Enable Proxy
 $ proxy set
 
-# Able Proxy
+# Disable Proxy
 $ proxy unset
 
 # Output proxy information
