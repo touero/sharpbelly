@@ -6,6 +6,10 @@
 <img src="https://img.shields.io/badge/license_-MIT-green" alt=""> <img src="https://img.shields.io/badge/shell-blue" alt=""> <img src="https://img.shields.io/badge/zsh-blue" alt="">  <img src="https://img.shields.io/badge/bash-blue" alt=""> 
 </p>
 
+<p align="center">
+    <img src=sharpbelly.png height="200" width="200" alt="">
+</p>
+
 ## Repository Introduction
 
 In actual development, it is necessary to use proxies in wsl. This repository provides support for quickly setting proxies and quickly canceling proxy settings in wsl.  
