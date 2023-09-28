@@ -48,7 +48,10 @@ $ proxy set
 $ proxy unset
 
 # Output proxy information
-$ proxy test
+$ proxy check
+
+# View proxy parameters
+$ proxy help
 
 # Test proxy
 $ curl google.com

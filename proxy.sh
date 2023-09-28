@@ -30,10 +30,17 @@ unset_proxy(){
     echo "Unset Proxy Success"
 }
 
-test_setting(){
+check(){
     echo "Host ip:" ${hostip}
     echo "WSL ip:" ${wslip}
     echo "Current proxy:" $PROXY_HTTP
+}
+
+help(){
+    echo "proxy [args] --arameter description: "
+    echo "set: set up proxy"
+    echo "unset: cancel Proxy"
+    echo "check: check wsl and host ip"
 }
 
 if [ "$1" = "set" ]
@@ -44,9 +51,14 @@ elif [ "$1" = "unset" ]
 then
     unset_proxy
 
-elif [ "$1" = "test" ]
+elif [ "$1" = "check" ]
 then
-    test_setting
+    check
+
+elif [ "$1" = "help" ]
+then
+    help
+
 else
     echo "Unsupported arguments."
 fi
